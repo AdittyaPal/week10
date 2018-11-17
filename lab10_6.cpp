@@ -28,6 +28,9 @@ class ZooAnimal
 	{
 		return weightDate;
 	}
-        int daysSinceLastWeighed(int today);
+        int daysSinceLastWeighed(int today)
+	{
+		weightDate=today;
+	}
 };
 
